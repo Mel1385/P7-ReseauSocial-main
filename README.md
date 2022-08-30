@@ -1,6 +1,6 @@
 Pour lancer le projet :
 
-Se rendre dans dossier server et installer node et toute les dépendances :
+Se rendre dans dossier server et installer toutes les dépendances :
 
 cd server/ && npm i
 
@@ -10,7 +10,7 @@ npm start
 
 Enfin, pour lancer le Front, ouvrir un nouveau terminal et se rendre dans le dossier client
 
-cd client/
+cd client/ && npm i
 
 puis lancer react
 
