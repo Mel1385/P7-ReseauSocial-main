@@ -4,8 +4,7 @@ import "./PostModal.css";
 import { useDispatch, useSelector } from "react-redux";
 import { uploadImage } from "../../actions/UploadAction";
 import { updatePost } from "../../actions/PostsAction";
-import { UilScenery } from "@iconscout/react-unicons";
-import { UilTimes } from "@iconscout/react-unicons";
+
 
 const PostModal = ({ modalOpened, setModalOpened, setPostData, data }) => {
   const theme = useMantineTheme();
