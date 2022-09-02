@@ -1,18 +1,32 @@
 Pour lancer le projet :
 
-Se rendre dans dossier server et installer node et toute les dépendances :
+//Créer une DB sur mongoDB ---
+
+//Se rendre dans dossier server et installer toutes les dépendances :
 
 cd server/ && npm i
 
-Ensuite, lancer le server :
+//Ensuite,remplir les champs.env : 
+
+MONGODB_CONNECTION=
+CLIENT_URL=http://localhost:3000 
+JWTKEY=''
+PORT=4200
+
+//Ensuite, lancer le server :
 
 npm start
 
-Enfin, pour lancer le Front, ouvrir un nouveau terminal et se rendre dans le dossier client
+//Enfin, pour lancer le Front, ouvrir un nouveau terminal et se rendre dans le dossier client
 
-cd client/
+cd client/ && npm i
 
-puis lancer react
+//Ensuite,remplir les champs.env :
+
+REACT_APP_PUBLIC_FOLDER = http://localhost:4200/images/
+REACT_APP_API_BASE_URL=http://localhost:4200
+
+//puis lancer react
 
 npm start
 
