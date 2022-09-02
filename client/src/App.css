@@ -88,3 +88,38 @@
   height: 2rem;
   align-self: flex-end;
 }
+
+/*Media queries*/
+/***************/
+
+@media (max-width: 991.98px) {
+	.App {
+		display: flex;
+		justify-content: space-around;
+	}
+  
+}
+
+@media (max-width: 375.98px) { 
+	.App {
+    display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+@media (max-width: 991.98px) {
+	.infoForm {
+		display: flex;
+		justify-content: space-around;
+	}
+  
+}
+
+@media (max-width: 375.98px) { 
+	.infoForm {
+    display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
