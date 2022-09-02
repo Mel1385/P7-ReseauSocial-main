@@ -4,3 +4,21 @@
   grid-template-columns: 18rem auto ;
   gap: 1rem;
 }
+
+/*Media queries*/
+
+@media (max-width: 991.98px) {
+	.Home {
+		display: flex;
+		flex-direction: column;
+		align-items: center;;
+	}
+}
+
+@media (max-width: 375.98px) { 
+	.Home {
+    display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
