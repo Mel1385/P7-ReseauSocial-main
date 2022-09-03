@@ -52,6 +52,9 @@
 
 /* right side */
 
+.error {
+  color: red;
+}
 
 .authForm{
     background-color: var(--cardColor);
@@ -64,3 +67,38 @@
     align-items: center;
     justify-content: center;
 }
+
+/*Media queries*/
+
+@media (max-width: 991.98px) {
+	.Auth {
+		display: flex;
+		flex-direction: column;
+		align-items: center;;
+	}
+}
+
+@media (max-width: 375.98px) { 
+	.Auth {
+    display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+@media (max-width: 991.98px) {
+	.Webname {
+		display: flex;
+		flex-direction: column;
+		align-items: center;;
+	}
+}
+
+@media (max-width: 375.98px) { 
+	.Webname {
+    display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
